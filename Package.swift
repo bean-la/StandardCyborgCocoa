@@ -17,9 +17,7 @@ let package = Package(
     targets: [
         .target(
             name: "StandardCyborgUI",
-            dependencies: []),
-        .testTarget(
-            name: "StandardCyborgUITests",
-            dependencies: ["StandardCyborgUI"]),
+            dependencies: [],
+            path: "StandardCyborgUI/StandardCyborgUI"),
     ]
 )
