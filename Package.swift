@@ -18,6 +18,6 @@ let package = Package(
         .target(
             name: "StandardCyborgUI",
             dependencies: [],
-            path: "StandardCyborgUI/StandardCyborgUI"),
+            path: "StandardCyborgCocoa/StandardCyborgUI/StandardCyborgUI"),
     ]
 )
