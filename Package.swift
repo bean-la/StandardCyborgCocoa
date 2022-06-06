@@ -4,20 +4,20 @@ import PackageDescription
 let package = Package(
     name: "BeanStandardCyborg",
     platforms: [
-        .iOS(.v12),
+        .iOS(.v13),
     ],
     products: [
         .library(
-            name: "StandardCyborgUI",
-            targets: ["StandardCyborgUI"]),
+            name: "StandardCyborgCocoa",
+            targets: ["StandardCyborgCocoa"]),
     ],
     dependencies: [
         // no dependencies
     ],
     targets: [
         .target(
-            name: "StandardCyborgUI",
+            name: "StandardCyborgCocoa",
             dependencies: [],
-            path: "StandardCyborgCocoa/StandardCyborgUI/StandardCyborgUI"),
+            path: "StandardCyborgCocoa/StandardCyborgCocoa/StandardCyborgUI"),
     ]
 )
